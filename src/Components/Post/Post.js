@@ -9,7 +9,7 @@ const Post = (props) => {
   <Card>
    
     <Card.Body>
-      <Card.Title><strong>UserId-</strong> {userId}</Card.Title>
+      <Card.Title><strong className='my-2'>UserId-</strong> {userId}</Card.Title>
       <Card.Title><strong>Id-</strong>{id}</Card.Title>
       <Card.Title><strong>Title-</strong>{title}</Card.Title>
       <Card.Text>
